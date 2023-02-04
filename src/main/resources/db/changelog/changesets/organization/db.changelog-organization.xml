@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="db.changelog-master.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="/db/changelog/changesets/organization/default/db.changelog-organization-default.xml"/>
+    <include file="/db/changelog/changesets/organization/dev/db.changelog-organization-dev.xml"/>
+    <include file="/db/changelog/changesets/organization/prep/db.changelog-organization-prep.xml"/>
+    <include file="/db/changelog/changesets/organization/prod/db.changelog-organization-prod.xml"/>
+
+
+<!--    <include file="/db/changelog/changesets/organization/addOrganizationsTable.xml"/>-->
+<!--    <include file="/db/changelog/changesets/organization/addOrganizations.sql"/>-->
+
+</databaseChangeLog>

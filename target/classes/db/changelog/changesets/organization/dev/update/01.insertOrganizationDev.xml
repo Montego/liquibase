@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="db.changelog-master.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <changeSet id="insertOrganizationDev-1" author="dromanov" context="dev">
+        <sql>
+            INSERT INTO organization.organizations (ID, NAME) VALUES (1, 'dev1');
+        </sql>
+        <comment>TEST-1</comment>
+    </changeSet>
+    <changeSet id="insertOrganizationDev-2" author="dromanov" context="dev">
+        <sql>
+            INSERT INTO organization.organizations (ID, NAME) VALUES (2, 'dev2');
+        </sql>
+        <comment>TEST-1</comment>
+    </changeSet>
+
+</databaseChangeLog>

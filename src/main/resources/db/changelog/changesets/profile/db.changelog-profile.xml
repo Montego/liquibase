@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="db.changelog-master.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <include file="/db/changelog/changesets/profile/default/db.changelog-profile-default.xml"/>
+    <include file="/db/changelog/changesets/profile/dev/db.changelog-profile-dev.xml"/>
+    <include file="/db/changelog/changesets/profile/prep/db.changelog-profile-prep.xml"/>
+    <include file="/db/changelog/changesets/profile/prod/db.changelog-profile-prod.xml"/>
+
+
+</databaseChangeLog>
